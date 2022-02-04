@@ -1,0 +1,4 @@
+#!/bin/bash 
+
+
+cat SP500.csv | cut -d , -f 1,5,10 | sort
